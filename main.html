@@ -18,20 +18,16 @@
                     <input type="text" required id="first-name-input" class="form-control">
                     <div class="invalid-feedback">First name required!</div>
                 </div>
-   
                 <div class="col-4">
                     <label for="lastname">Last Name</label>
                     <input type="text" required id="last-name-input" class="form-control">
                     <div class="invalid-feedback">Last name required!</div>
                 </div>
-   
                 <div class="col-4">
                     <label for="email">Email Address</label>
                     <input type="email" required id="email-input" class="form-control">
                     <div class="invalid-feedback">Email required!</div>
                 </div>
-
-
                 <div class="col-6 mt-4">
                     <label for="college">College</label>
                     <input type="text" required id="college-input" class="form-control">
@@ -39,12 +35,12 @@
                         Please provide a valid college name.
                     </div>
                 </div>
-
-
                 <div class="col-3 mt-4">
                     <label for="grad">Graduation Year</label>
                     <select id="grad" class="form-select" required>
                         <option value="">Choose...</option>
+						<option value="2022">2020</option>
+						<option value="2022">2021</option> 
                         <option value="2022">2022</option>
                         <option value="2023">2023</option>
                     </select>
@@ -52,30 +48,20 @@
                         Please select a valid Graduation year
                     </div>
                 </div>
-
-
-                <div class="col-3 mt-4">
+                 <div class="col-3 mt-4">
                     <label for="roll">Roll Number</label>
                     <input type="number" id="roll-no-input" class="form-control" required>
                     <div class="invalid-feedback">
                         Please provide a valid roll no.
                     </div>
-                </div>
-
-
+                </div> 
                 <div class="col-12 mt-4">
                     <input type="checkbox" label="check" class="form-check-inline checkbox" required>
-
-
-                    <label for="check" class="checkbox-label" id="conditions-checkbox" >Agree to terms and conditions</label>
+                 <label for="check" class="checkbox-label" id="conditions-checkbox" >Agree to terms and conditions</label>
                     <div class="invalid-feedback">You must be agree before submitting</div>
                 </div>
-
-
                 <div class="col-3 mt-4">
                     <button class="btn btn-primary">Submit</button>
-
-
                 </div>
             </div>
         </form>
