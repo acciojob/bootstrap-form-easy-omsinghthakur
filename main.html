@@ -56,17 +56,26 @@
                     </div>
                 </div> 
                 <div class="col-12 mt-4"> 
-                 <label for="conditions-checkbox" class="checkbox-label" id="conditions-checkbox" class="form-check-input" required>Agree to terms and conditions</label> 
-					 <input type="checkbox" label="check" class="form-check-inline checkbox" required> 
-                    <div class="invalid-feedback">You must be agree before submitting</div>
+                  <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="conditions-checkbox"
+          required
+        />
+        <label class="form-check-label" for="conditions-checkbox">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">You must agree before submitting.</div>
+      </div> 
                 </div>
                 <div class="col-3 mt-4">
                     <button class="btn btn-primary">Submit</button>
                 </div>
             </div>
         </form>
-    </div>
-
+    </div> 
 
 </body>
-</html>
+</html> 
